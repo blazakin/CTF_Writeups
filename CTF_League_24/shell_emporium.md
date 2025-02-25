@@ -14,7 +14,7 @@ run the syscall ```execve``` on ```/bin/sh\x00``` to give ourselves a shell. We 
 allowing us to refence where the string /bin/sh is. In the second buffer, we do a buffer overflow
 to return to the address where the shellcode assembly is. For this, we can simply send the address of the shellcode assmebly
 multiple times until it overflows to it. After we get our shell, we run ```ls``` to find the file ```flag.txt```, which we can 
-then read with ```cat flag.txt```. Thereby giving us the flag!
+then read with ```cat flag.txt```. Thereby giving us the flag! Note that https://x86.syscall.sh/ provides a good overview of x86 syscalls.
 
 The code below implements this
 
