@@ -3,7 +3,7 @@
 ## Overview
 
 For this challenge we are doing some obfuscated reverse engineering. We have an obsufacted (and defanged) malware file, a transmission, 
-and a transmission timestamp. 
+and a transmission timestamp. The challenge can be found here: https://github.com/Dr-Gecko/CTF-Challenges/tree/main/MobHit.
 
 ## Solution
 
